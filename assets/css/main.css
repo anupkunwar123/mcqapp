@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 80px
+}
+input {
+    margin: 8px;
+}
+
+.correct{
+    background: green;
+    display: inline-block;
+}
+
+.incorrect{
+    background: red;
+    display: inline-block;
+}
+
+.timer{
+    float: right;
+}
+
+.timer::after{
+    clear: both;
+}
+
+.mcq-container{
+    margin-bottom: 30px;
+}
